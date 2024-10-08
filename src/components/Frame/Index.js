@@ -21,12 +21,13 @@ function Index(props) {
   const [menuStretch, setMenuStretch] = useState(false) // 菜单折叠控制
   const [layoutKey, setLayoutKey] = useState(0)
   return (
-    <Layout key={layoutKey}>
+    <Layout key={layoutKey} >
       <Sider trigger={null} collapsible collapsed={menuStretch}>
         <div className='side_header'>
           {/*KFTOOLS-react*/}
-          <img src={kftoolIcon} alt='' className={'side_icon_img'} />
-          <span className={'side_span'}>React</span>
+          <div style={{fontSize:'25px',color:'#096dd9',fontWeight:'bold'}}>lushshare</div>
+          {/* <img src={kftoolIcon} alt='' className={'side_icon_img'} /> */}
+          {/* <span className={'side_span'}>React</span> */}
         </div>
         <UiRouteUi>
           {

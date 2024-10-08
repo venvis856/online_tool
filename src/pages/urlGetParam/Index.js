@@ -7,9 +7,7 @@ import { randomNum } from '../../utils/commonFunc'
 import { switchProp } from 'styled-tools'
 import { ArrowRightOutlined , ArrowUpOutlined, ArrowDownOutlined} from '@ant-design/icons'
 
-interface IndexProps {}
-
-const Index: FC<IndexProps> = props => {
+const Index = props => {
   const {} = props
   const [url, setUrl] = useState('')
   const [dataSource, setDataSource] = useState([])

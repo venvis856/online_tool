@@ -21,6 +21,8 @@ import mergeEncode from '../pages/mergeEncode'
 import Crontab from '../pages/crontab/index'
 import Sql2Struct from '../pages/sql2struct/App'
 import UrlGetParam from '../pages/urlGetParam/Index'
+import Erweima from '../pages/erweima/index'
+import ImgToText from '../pages/img_to_text/index'
 
 // const PageNotFound = lazy(() => import('../pages/pageNotFound/PageNotFound') );
 // const Date = lazy(() => import('../pages/date/date') );
@@ -103,9 +105,22 @@ export const mainRoutes = [
     isShow: true,
     icon:  <AlibabaOutlined />,
   },
+  {
+    path: '/qrcode',
+    component: Erweima,
+    title: '二维码',
+    isShow: true,
+    icon:  <AlibabaOutlined />,
+  },
+  {
+    path: '/img_to_text',
+    component: ImgToText,
+    title: '图片转文字',
+    isShow: true,
+    icon:  <AlibabaOutlined />,
+  },
 
-
-
+  
 
 ]
 

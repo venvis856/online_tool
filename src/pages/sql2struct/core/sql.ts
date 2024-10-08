@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { SqlField, SqlTable } from './type'
 
 // preg match table name from sql statement

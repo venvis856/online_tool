@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { json } from '@codemirror/lang-json'
 import { Modal, TabPane, Tabs, TagInput } from '@douyinfe/semi-ui'
 import CodeMirror from '@uiw/react-codemirror'

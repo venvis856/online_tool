@@ -14,10 +14,7 @@ import Base64Encode from '../base64/index'
 
 const { TextArea } = Input
 
-interface IndexProps {
-}
-
-const Index: FC<IndexProps> = props => {
+const Index = props => {
   const {} = props
 
   return (

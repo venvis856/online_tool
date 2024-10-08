@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { IconSetting } from '@douyinfe/semi-icons'
 import { Button } from '@douyinfe/semi-ui'
 import React, { useEffect, useState } from 'react'
@@ -128,7 +129,7 @@ export default () => {
           }
         />
       </UiHeader>
-      <UiBody height={'80%'}>
+      <UiBody>
         <UiLeft>
           {/*<Toolbar languages={{ sql: 'SQL' }} />*/}
           <Editor

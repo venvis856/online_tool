@@ -1,3 +1,4 @@
+// @ts-nocheck
 import styled from '@emotion/styled'
 import { css } from '@emotion/react'
 import { prop, switchProp } from 'styled-tools'

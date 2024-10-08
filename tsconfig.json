@@ -7,7 +7,7 @@
     "module": "ESNext",
     "moduleResolution": "node",
     "strict": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noUnusedLocals": true,
     "strictNullChecks": true,
     "target": "es5",

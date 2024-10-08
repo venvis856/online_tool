@@ -1,4 +1,4 @@
-// @ts-ignore
+//@ts-ignore
 import React, { FC, useState } from 'react'
 import { UiBody, UiBottom, UiCenter, UiLeft, UiLi, UiList, UiRight } from '../uiCommon/ui'
 import { Input, Button } from 'antd'

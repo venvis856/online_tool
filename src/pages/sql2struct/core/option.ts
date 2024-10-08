@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { kv } from './type'
 
 // default sql to go struct field maps

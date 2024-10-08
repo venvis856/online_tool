@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { GoStruct, GoStructField, kv, SqlField, SqlTable } from './type'
 import { camelCase } from './util'
 

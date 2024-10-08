@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { rust } from '@codemirror/lang-rust'
 import { sql } from '@codemirror/lang-sql'
 // import { eclipse } from '@uiw/codemirror-theme-eclipse'

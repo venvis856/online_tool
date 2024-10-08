@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { CheckboxGroup } from '@douyinfe/semi-ui'
 import { ReactNode } from 'react'
 import './Toolbar.less'

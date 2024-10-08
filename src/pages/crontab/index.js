@@ -8,15 +8,12 @@ import { sql } from '@codemirror/lang-sql'
 import { okaidia } from '@uiw/codemirror-theme-okaidia'
 import { formatDate } from '../../utils/commonFunc'
 
-interface IndexProps {
-}
-
-const Index: FC<IndexProps> = props => {
+const Index = props => {
   const {} = props
   const [value,setValue]=useState("0 */12 * * *")
   const [arrData,setArrData]=useState( [])
 
-  const handleUrlCode = (code: string) => {
+  const handleUrlCode = (code) => {
     if(value===''){
       setArrData([])
       return
